@@ -1,0 +1,56 @@
+1.
+Customers
+-Customer ID (PK)
+-Customer F Name
+-Customer L Name
+-ContactNumber
+-Email
+-Address
+-City
+
+
+2.
+Orders Table
+-OrderID (PK)
+-OrderNumber
+-OrderDate
+--CustomerID (FK)
+
+3.
+ProductsBrand
+-BrandID (PK)
+-BrandTitle
+
+4.
+ProductDescription
+-ProductID (PK)
+-ProductName
+--Brand ID REF (FK)
+-Unit Price                
+
+
+5.
+Payment table
+-Payment ID (PK)
+-Payment Method
+
+6.
+PaymentStatus
+-StatusID (PK)
+-StatusTitle
+
+7.
+Employee
+-CashierID (PK)
+-CashierFName
+-CashierLName
+
+8.
+Relation Table
+-Relation ID (PK)
+--Quantity
+--OrderID (FK)
+--ProductID (FK)
+--PaymentID (FK)
+--StatusID (FK)
+--CashierID ((FK))
