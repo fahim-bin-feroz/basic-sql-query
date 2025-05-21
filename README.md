@@ -1,4 +1,4 @@
-🗃️ Basic SQL Queries (DDL & DML)
+# 🗃️ Basic SQL Queries (DDL & DML)
 This repository contains basic SQL queries created as part of my course. The SQL scripts are divided into two categories:
 
 🏗️ DDL (Data Definition Language) – for creating database structure
